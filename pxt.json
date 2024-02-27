@@ -1,0 +1,28 @@
+{
+    "name": "ultrasonicREKA",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "pxt-rekabit-rbt-project-kit": "github:cytrontechnologies/pxt-rekabit-rbt-project-kit#v1.1.4",
+        "pxt-rekabit": "github:cytrontechnologies/pxt-rekabit#v1.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
